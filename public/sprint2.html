@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+    <title>Funciones debounce</title>
+</head>
+<body>
+    <header>
+        <h1>Función Debounce</h1>
+    </header>
+    <div class="container">
+        <p>La función debounce es una herramienta que permite retrasar la ejecución de una función. En lugar de ejecutarse inmediatamente, se espera un período de tiempo determinado. Si la función se vuelve a invocar antes de que transcurra ese tiempo, la ejecución anterior se cancela y se reinicia el tiempo de espera.</p>
+        <p>En el siguiente ejemplo, la función debounce se utiliza para mostrar dos mensajes con diferentes tiempos de retardo. El primer mensaje tiene un retardo de 1000ms, y el segundo se mostrará con un retardo de 2000ms.</p>
+        <div class="content">
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="../dist/sprint2.js"></script>
+</body>
+</html>
+
+
+
+
+
